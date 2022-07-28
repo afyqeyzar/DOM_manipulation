@@ -31,3 +31,15 @@ div.style.cssText = "background-color: pink; border-style: solid;"
 
 h1.textContent = "I'm in a div"
 p.textContent = "ME TOO"
+
+const btn2 = document.querySelector('#btn2');
+btn2.onclick = () => alert("Hello World");
+
+const btn3 = document.querySelector('#btn3');
+btn3.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+  });
+
+/*btn3.addEventListener('click', () => {
+  alert("Hello World");
+}); */
